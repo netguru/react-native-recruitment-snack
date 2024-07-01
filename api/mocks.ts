@@ -1,9 +1,3 @@
-export interface MockedHistory {
-  name: string;
-  date: number;
-  temperature: number;
-}
-
 export const MOCKED_HISTORY = [
   {
     name: 'Warsaw',

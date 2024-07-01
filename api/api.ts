@@ -1,7 +1,9 @@
-import {ApiResponse, ApiError} from './models';
-
 const ENDPOINT: string = 'http://api.openweathermap.org/data/2.5/weather';
 const APP_ID: string = ''; // Get API Key from https://openweathermap.org
+
+interface ApiResponse {}
+
+interface ApiError {}
 
 interface Response {
   error: null | ApiError;

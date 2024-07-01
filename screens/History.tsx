@@ -1,8 +1,8 @@
-import React from 'react';
 import {SafeAreaView, ScrollView, Text, StyleSheet} from 'react-native';
 import {HistoryItem} from '../components/HistoryItem';
-import {MOCKED_HISTORY, MockedHistory} from '../fixtures/history';
+import {MockedHistory} from '../types/history';
 import {formatDate} from '../utils/dates';
+import { MOCKED_HISTORY } from '../api/mocks';
 
 export const HistoryScreen = () => {
   return (

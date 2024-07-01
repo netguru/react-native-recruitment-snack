@@ -1,10 +1,9 @@
-import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
-import {TabNavigatorParamsList} from './models';
 
 import {SearchScreen} from '../screens/Search';
+import { TabNavigatorParamsList } from '../types/navigation';
 
 const TabNavigator = createBottomTabNavigator<TabNavigatorParamsList>();
 
